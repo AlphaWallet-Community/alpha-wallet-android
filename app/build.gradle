@@ -37,8 +37,8 @@ android {
         applicationId "io.stormbird.wallet"
         minSdkVersion 18
         targetSdkVersion 28
-        versionCode 21
-        versionName "1.0.15"
+        versionCode 23
+        versionName "1.30.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled = true
 
@@ -100,7 +100,7 @@ dependencies {
     // WARNING!  users google gms summarily, like immune systems cleansing infections
     // WARNING! WARNING!  WARNING!  WARNING!  WARNING!  WARNING!  WARNING!  WARNING! 
 
-    // Etherium client
+    // Ethereum client
     implementation "org.web3j:core:$project.web3jVersion"
     implementation "org.ethereum:geth:$project.gethVersion"
 
